@@ -1,0 +1,151 @@
+body{
+  font-family: Arial,
+  sans-serif; margin: 0;
+  background: #f4f6f9;
+}
+
+header{
+  background: #111827;
+  color: white;
+  padding: 16px;
+}
+
+header h1{
+  margin: 0 0 8px 0;
+}
+
+nav a {
+  color: white;
+  margin-right: 12px;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.actions {
+  margin-top: 14px;
+}
+
+
+.btn { 
+  display: inline-block; 
+  padding: 10px 14px; 
+  background: #10b981; 
+  color: white; 
+  border-radius: 6px; 
+  text-decoration: none; 
+  margin-right: 10px; 
+}
+
+.btn:hover { 
+  opacity: 0.9; 
+}
+
+input, select { 
+  width: 100%; 
+  padding: 10px; 
+  margin-top: 6px; 
+  margin-bottom: 14px; 
+  border: 1px solid #ccc; 
+  border-radius: 6px; 
+}
+
+button { 
+  padding: 10px 14px; 
+  border: none; 
+  border-radius: 6px; 
+  background: #2563eb; 
+  color: white; 
+  cursor: pointer; 
+}
+
+button:hover { 
+  opacity: 0.9; 
+}
+
+.error { 
+  background: #fee2e2; 
+  padding: 10px; 
+  border-radius: 6px; 
+  color: #991b1b; 
+}
+
+.success { 
+  background: #dcfce7; 
+  padding: 10px; 
+  border-radius: 6px; 
+  color: #166534; 
+}
+
+footer { 
+  text-align: center; 
+  padding: 16px; 
+  color: #6b7280; 
+}
+
+.event-item { 
+  padding: 12px 0; 
+}
+
+.event-top { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.badge {
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  color: white;
+}
+
+
+.badge-tech { 
+  background: #2563eb; 
+}
+
+.badge-church { 
+  background: #7c3aed; 
+}
+
+.badge-sports { 
+  background: #f59e0b; 
+}
+
+.badge-career { 
+  background: #10b981; 
+}
+
+.badge-default { 
+  background: #6b7280; 
+}
+
+.filter-bar {
+  display: flex;
+  gap: 10px;
+  margin: 12px 0 20px 0;
+}
+
+.filter-bar input, .filter-bar select {
+  margin: 0;
+}
+
+.btn-danger {
+  background: #ef4444;
+  margin-top: 8px;
+}
+
+.btn-danger:hover {
+  opacity: 0.9;
+}
