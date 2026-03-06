@@ -54,18 +54,22 @@ Apache	Web server (via XAMPP)
 
 **FILE STRRUCTURE**
 event-registration/
+|
 ├── assets/
 │   ├── css/
 │   │   └── style.css
 │   └── js/
 │       └── main.js
+|
 ├── includes/
 │   ├── auth.php
 │   ├── config.php
 │   ├── footer.php
 │   └── header.php
+|
 ├── uploads/
 │   └── profiles/
+|
 ├── .gitignore
 ├── dashboard.php
 ├── events.php
@@ -182,7 +186,17 @@ SCREENSHOTS
 
 <img width="1896" height="886" alt="image" src="https://github.com/user-attachments/assets/f1cf68c1-08ff-4387-87d0-917485fbbf70" />
 
+******GROUP MEMBERS******
 
+1.	Agyapong Clifford - 052441360057
+2.	FaithLord Kojo Afful - 052441360314
+3.	Abdullah Murtala – 052441360302
+4.	Baligi Simon -  052441360215
+5.	Frank Opoku Acheampong – 052441360303
+6.	Mohammed Faiza - 052441360240
+7.	Boakye Prince - 052541360358
+8.	Amoateng Mensah Felix - 052441360044
+   
 
 
 
