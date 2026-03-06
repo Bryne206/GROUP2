@@ -1,7 +1,7 @@
 ****🎟️ GROUP2 - Event Registration System****
 A platform to create, manage, and track event registrations efficiently.
 
-**📋 Table of Contents**
+********📋 Table of Contents********
 About The Project
 
 Features
@@ -20,7 +20,7 @@ Screenshots
 
 Group Members
 
-**📖 About The Project**
+**********📖 About The Project**********
 This is a complete Event Registration System built as a group project. Users can create accounts, browse events, register for events, and manage their registrations through a personal dashboard.
 
 The system is built with PHP for backend logic and HTML/CSS/JavaScript for the frontend. It runs on Apache server using XAMPP.
@@ -44,7 +44,7 @@ The system is built with PHP for backend logic and HTML/CSS/JavaScript for the f
 
 ✅ Responsive design
 
-**🛠️ Technologies Used**
+**********🛠️ Technologies Used**********
 Technology	Purpose
 PHP	Backend logic, session handling, form processing
 HTML5	Page structure
@@ -52,7 +52,7 @@ CSS3	Styling and layout
 JavaScript	Dynamic content, form validation, API calls
 Apache	Web server (via XAMPP)
 
-**FILE STRRUCTURE**
+/**FILE STRRUCTURE**
 event-registration/
 |
 ├── assets/
@@ -79,9 +79,10 @@ event-registration/
 ├── my_registrations.php
 ├── README.md
 └── register.php
+**/
 
 
-😅 Challenges We Faced
+**************😅 Challenges We Faced**************
 During development, we encountered several difficulties:
 
 1. 500 Internal Server Errors
@@ -98,42 +99,42 @@ Cause: Session not started on some pages
 
 Solution: Added session_start() in config.php and included it everywhere
 
-_3. File Upload Permissions_
+**_**3. File Upload Permissions_****
 Issue: Profile images wouldn't upload
 
 Cause: uploads/profiles/ folder didn't exist or lacked write permissions
 
 Solution: Created folder with proper permissions and added directory check in code
 
-_4. Form Submission Loops_
+****_4. Form Submission Loops_****
 Issue: Forms resubmitting on page refresh
 
 Cause: POST data persisting after form submission
 
 Solution: Implemented PRG (Post-Redirect-Get) pattern using header redirects
 
-_5. Event Capacity Logic_
+****_5. Event Capacity Logic_****
 Issue: Users could register beyond event capacity
 
 Cause: Race conditions in registration checking
 
 Solution: Added real-time capacity verification before insert
 
-_6. XAMHP Configuration_
+****_6. XAMHP Configuration_****
 Issue: Some PHP extensions weren't enabled
 
 Cause: Default XAMPP setup
 
 Solution: Enabled gd extension for image handling in php.ini
 
-_7. File Path Issues_
+****_7. File Path Issues_****
 Issue: CSS/JS files not loading
 
 Cause: Incorrect relative paths
 
 Solution: Used root-relative paths and fixed all includes
 
-**🚀 How To Run (XAMPP)**
+**************🚀 How To Run (XAMPP)**************
 Step 1: Install XAMPP
 Download and install XAMPP from https://www.apachefriends.org/
 
