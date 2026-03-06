@@ -1,26 +1,26 @@
-****🎟️ GROUP2 - Event Registration System****
+#🎟️ GROUP2 - Event Registration System****
 A platform to create, manage, and track event registrations efficiently.
 
-********📋 Table of Contents********
+#📋 Table of Contents
 About The Project
 
-Features
+##Features
 
-Technologies Used
+###Technologies Used
 
-Project Structure
+###Project Structure
 
-Challenges We Faced
+###Challenges We Faced
 
-How To Run (XAMPP)
+###How To Run (XAMPP)
 
-File Contents
+#File Contents
 
 Screenshots
 
 Group Members
 
-**********📖 About The Project**********
+#📖 About The Project
 This is a complete Event Registration System built as a group project. Users can create accounts, browse events, register for events, and manage their registrations through a personal dashboard.
 
 The system is built with PHP for backend logic and HTML/CSS/JavaScript for the frontend. It runs on Apache server using XAMPP.
@@ -52,7 +52,8 @@ CSS3	Styling and layout
 JavaScript	Dynamic content, form validation, API calls
 Apache	Web server (via XAMPP)
 
-/**FILE STRRUCTURE**
+#FILE STRRUCTURE
+
 event-registration/
 |
 ├── assets/
