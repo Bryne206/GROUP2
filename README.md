@@ -53,19 +53,29 @@ JavaScript	Dynamic content, form validation, API calls
 Apache	Web server (via XAMPP)
 
 **FILE STRRUCTURE**
-C:\xampp\htdocs\event-registration\
-│
+event-registration/
 ├── assets/
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── main.js
 ├── includes/
+│   ├── auth.php
+│   ├── config.php
+│   ├── footer.php
+│   └── header.php
 ├── uploads/
+│   └── profiles/
+├── .gitignore
 ├── dashboard.php
 ├── events.php
 ├── index.php
 ├── login.php
 ├── logout.php
 ├── my_registrations.php
-├── register.php
-└── README.md
+├── README.md
+└── register.php
+
 
 😅 Challenges We Faced
 During development, we encountered several difficulties:
